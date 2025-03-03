@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Controle de Estoque - Savinis</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Controle de Estoque</h1>
+        <div class="form-group">
+            <label for="saldoInicial">Saldo Inicial:</label>
+            <input type="number" id="saldoInicial" placeholder="Digite o saldo inicial">
+            <button id="iniciar">Iniciar Sistema</button>
+        </div>
+
+        <div id="operacoes" class="hidden">
+            <div class="form-group">
+                <label for="tipoEntrada">Tipo de Entrada:</label>
+                <select id="tipoEntrada">
+                    <option value="1">Compra (Entrada)</option>
+                    <option value="2">Venda (Saída)</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="quantidade">Quantidade:</label>
+                <input type="number" id="quantidade" placeholder="Digite a quantidade">
+            </div>
+            <button id="processar">Processar</button>
+            <button id="encerrar">Encerrar Sistema</button>
+        </div>
+
+        <div id="resultado">
+            <h2>Saldo Atual: <span id="saldoAtual">0</span></h2>
+            <p id="mensagem"></p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
