@@ -4,39 +4,39 @@ Insira um saldo inicial válido (por exemplo, 100) e clique em "Iniciar Sistema"
 Selecione o tipo de operação (compra ou venda) e insira a quantidade.
 Clique em "Processar" para atualizar o saldo.
 Clique em "Encerrar Sistema" para reiniciar o processo.
-
-/projeto-estoque
-│
-├── estoque.html
-├── style.css
-└── script.js
-
-Exemplo de Funcionamento:
-
-Iniciar Sistema:
+<br>
+/projeto-estoque<br>
+│ <br>
+├── estoque.html <br>
+├── style.css <br>
+└── script.js <br>
+<br>
+Exemplo de Funcionamento:<br>
+<br>
+Iniciar Sistema:<br>
 Saldo inicial: 100
-
-Clique em "Iniciar Sistema".
+<br>
+Clique em "Iniciar Sistema".<br>
 Realizar Compra:
-
-Tipo de entrada: Compra (Entrada)
+<br>
+Tipo de entrada: Compra (Entrada)<br>
 Quantidade: 50
-
-Saldo atualizado: 150
-
-Realizar Venda:
+<br>
+Saldo atualizado: 150<br>
+<br>
+Realizar Venda:<br>
 Tipo de entrada: Venda (Saída)
-
-Quantidade: 30
+<br>
+Quantidade: 30<br>
 Saldo atualizado: 120
-
-Tentar Vender Mais do que o Saldo:
+<br>
+Tentar Vender Mais do que o Saldo:<br>
 Tipo de entrada: Venda (Saída)
-
-Quantidade: 200
+<br>
+Quantidade: 200<br>
 Mensagem: "Saldo insuficiente."
-
-Encerrar Sistema:
+<br>
+Encerrar Sistema:<br>
 Clique em "Encerrar Sistema".
-
-Mensagem: "Sistema encerrado."
+<br>
+Mensagem: "Sistema encerrado."<br>
